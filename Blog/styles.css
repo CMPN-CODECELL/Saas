@@ -9,7 +9,7 @@ body{
 }
 
 .blogpost{
-    height: 625px;
+    height: 600px;
     width: 360px;
     border-radius: 10px;
     margin: 20px;
@@ -46,4 +46,5 @@ button{
     color:blue;
     border: none;
     background-color: white;
+    font-size: 15px;
 }
