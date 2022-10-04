@@ -1,0 +1,50 @@
+.flex-container{
+    display: flex;
+    flex-direction: row;
+      
+}
+
+body{
+     background-color: rgb(241, 236, 229);
+}
+
+.blogpost{
+    height: 600px;
+    width: 360px;
+    border-radius: 10px;
+    margin: 20px;
+    margin-left: 25px;
+    background-color: white;
+    box-shadow: 10px;
+    
+
+
+}
+
+.blog-img{
+    height: 350px;
+    width: 360px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px; ;
+}
+.header-blog{
+    text-align: center;
+}
+
+h3{
+    margin-left: 10px;
+    margin-top: 10px;
+    color: dimgray;
+}
+h1{
+    margin-left: 10px;
+    margin-top: 10px;
+    color: navy;
+}
+button{
+    margin-left: 10px;
+    color:blue;
+    border: none;
+    background-color: white;
+    font-size: 15px;
+}
