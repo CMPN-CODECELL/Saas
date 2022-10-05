@@ -1,0 +1,36 @@
+.heading{
+    text-align:center;
+    margin-top: 1rem;
+    color:blue;
+}
+.main-heading{
+    text-align:center;
+    color:#1338BE;
+}
+.flex-container{
+    width:80%;
+    margin:auto;
+    display:flex;
+    flex-wrap:wrap;
+    flex-direction:row;
+    justify-content:space-between;
+}
+.left-container{
+    display:flex;
+    flex-direction:column;
+}
+.question {
+  display: flex;
+  justify-content: space-between;
+}
+.question-btn {
+  background: transparent;
+  border-color: transparent;
+}
+.lineafter{
+  border:0.01rem solid black;
+}
+.right-container{
+    display:flex;
+    flex-direction:column;
+}
