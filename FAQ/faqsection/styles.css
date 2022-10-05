@@ -28,7 +28,7 @@
   border-color: transparent;
 }
 .lineafter{
-  border:0.01rem solid black;
+  border:0.01rem solid grey;
 }
 .right-container{
     display:flex;
