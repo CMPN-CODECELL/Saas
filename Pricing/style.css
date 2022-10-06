@@ -13,41 +13,42 @@ body {
 
 .rect1 {
     border: 1px solid rgb(255, 255, 255);
-    width: 18%;
+    width: 20%;
     float: left;
     margin-right: 20px;
+    margin-left: 90px;
     border-radius: 5%;
     height: 600px;
-    box-shadow: rgb(0 0 0 / 18%) 0 2px 8px;
+    box-shadow: rgb(0 0 0 / 40%) 0 2px 8px;
 }
 
 .rect2 {
     border: 1px solid rgb(255, 255, 255);
-    width: 23%;
+    width: 20%;
     float: left;
     margin-right: 20px;
     border-radius: 5%;
     height: 600px;
-    box-shadow: rgb(0 0 0 / 18%) 0 2px 8px;
+    box-shadow: rgb(0 0 0 / 40%) 0 2px 8px;
 }
 
 .rect3 {
     border: 1px solid rgb(255, 255, 255);
-    width: 22%;
+    width: 20%;
     float: left;
     margin-right: 20px;
     border-radius: 5%;
     height: 600px;
-    box-shadow: rgb(0 0 0 / 18%) 0 2px 8px;
+    box-shadow: rgb(0 0 0 / 40%) 0 2px 8px;
 }
 
 .rect4 {
     border: 1px solid rgb(255, 255, 255);
-    width: 26%;
+    width: 20%;
     float: left;
     border-radius: 5%;
     height: 600px;
-    box-shadow: rgb(0 0 0 / 18%) 0 2px 8px;
+    box-shadow: rgb(0 0 0 / 40%) 0 2px 8px;
 }
 
 .header1 {
@@ -67,20 +68,16 @@ body {
     height: 250px;
 }
 
-.p1 {
-    text-align: center;
-    font-size: medium;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
 .button1 {
     color: blue;
     background-color: rgb(255, 255, 255);
     border-radius: 10%;
-    border: 1px solid rgb(42, 108, 162);
+    border: 1px solid rgb(255, 255, 255);
     font-size: medium;
     vertical-align: middle;
     padding: 8px 16px;
     width: 50%;
-    margin-left: 45px;
+    margin-left: 60px;
+    box-shadow: rgb(0 0 0 / 70%) 0 2px 8px;
+    margin-top: 20px;
 }
