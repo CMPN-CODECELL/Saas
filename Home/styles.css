@@ -1,53 +1,79 @@
-body{
-    background-image: url("./img/hero-bg.png");
-
+body {
+    background: var(--primary-color)
 }
-.header-nav{
-    color: rgb(0, 0, 130);
+
+.header-nav {
+    color: var(--fourth-color);
     margin: 30px 30px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.flex-container{
+.flex-container {
     display: flex;
     flex-direction: row;
     justify-content: end;
 
 }
 
-.nav-item{
-    color: blue;
+.nav-item {
+    color: var(--fourth-color);
     margin-left: 25px;
-    margin-top: -50px; 
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: -50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.nav-btn{
-    
+.nav-btn {
+
     margin-left: 25px;
     padding: 10px;
-    background-color: blue;
+    background-color: var(--fourth-color);
     font-size: 15px;
     border: none;
     font-weight: 700;
-    color:white;
+    color: var(--primary-color);
     display: inline-block;
     text-align: center;
     margin-top: -40px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border-radius: 5px;
     margin-right: 50px;
-    
+
 }
 
-.main-heading{
-    color: rgb(0, 0, 130);
+:root {
+    --primary-color: white;
+    --secondary-color: black;
+    --third-color: slategrey;
+    --fourth-color: blue;
+
+
+
+}
+
+.dark-theme {
+
+    --primary-color: black;
+    --secondary-color: white;
+    /* --third-color:white; */
+    --fourth-color: white;
+
+
+}
+
+#icon {
+    width: 50px;
+    cursor: pointer;
+    margin-left: 25px;
+}
+
+.main-heading {
+    color: var(--fourth-color);
     padding-left: 60px;
-    font-size:50px;
-    
+    font-size: 50px;
+
 }
 
-.main-body{
+.main-body {
     display: flex;
     flex-direction: row;
     padding-top: 100px;
@@ -55,27 +81,28 @@ body{
 
 
 }
-.hero-img{
+
+.hero-img {
     padding-left: 300px;
 }
 
-.main-part2{
+.main-part2 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color:slategrey;
+    color: var(--third-color);
     margin-left: 100px;
     margin-top: -225px;
-    
+
 
 }
 
-.main-btn{
+.main-btn {
     margin-left: 100px;
     padding: 7px;
-    background-color: blue;
+    background-color: var(--fourth-color);
     font-size: 15px;
     border: none;
     font-weight: 700;
-    color:white;
+    color: var(--primary-color);
     display: inline-block;
     text-align: center;
     margin-top: -35px;
