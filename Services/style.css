@@ -1,7 +1,8 @@
 body {
     margin: 5%;
     padding: 0;
-    background-image: url("D:\Death\Saas\Home\img\hero-bg.png");
+    background-color: rgb(255, 255, 255);
+    background-image: url('hero-bg.png');
 }
 
 .header {
@@ -60,10 +61,10 @@ body {
 }
 
 .image {
-    width: max-content;
-    height: 50px;
-    vertical-align: bottom;
-    margin-left: 100px;
+    width: 20%;
+    height: 40px;
+    vertical-align: middle;
+    margin-left: 40%;
     margin-top: 30px;
 }
 
@@ -73,8 +74,9 @@ body {
     box-shadow: rgb(0 0 0 / 20%) 0 2px 8px;
     font-size: large;
     vertical-align: middle;
-    margin-left: 50px;
+    margin-left: 75px;
     padding: 8px 16px;
     width: fit-content;
-    margin-top: 20px;
+    margin-top: 50px;
+    box-shadow: rgb(0 0 0 / 50%) 0 2px 8px;
 }
