@@ -1,0 +1,32 @@
+.bg-color-1 {
+    background-color: #4057ed9d;
+}
+
+.border1{
+    border-bottom: 10px solid #4057eddf !important;
+}
+
+.bg-color-2 {
+    background-color: #ed6b409d;
+}
+
+.border2{
+    border-bottom: 10px solid #ed6b40de  !important;
+}
+
+.bg-color-3 {
+    background-color: #40ed4e9d;
+}
+
+.border3{
+    border-bottom: 10px solid #40ed4ede !important;
+}
+
+.link{
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.text-justify{
+    text-align: justify;
+}
