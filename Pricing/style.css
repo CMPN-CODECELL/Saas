@@ -2,21 +2,24 @@ body {
     margin: 2%;
     padding: 0;
     background-image: url("D:\Death\Saas\Pricing\hero-bg.png");
+    background-color: var(--primary-color);
 }
 
 .header {
-    text-align: center;
+    align-items: center;
+    justify-content: center;
     font-size: larger;
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(46, 46, 161);
+    color:var(--third-color);
+    display: flex;
 }
 
 .rect1 {
     border: 1px solid rgb(255, 255, 255);
-    width: 20%;
-    float: left;
-    margin-right: 20px;
-    margin-left: 90px;
+    width: 400px;
+    /* float: left; */
+    margin-top: 20px;
+    /* margin-left: 90px; */
     border-radius: 5%;
     height: 600px;
     box-shadow: rgb(0 0 0 / 40%) 0 2px 8px;
@@ -24,9 +27,9 @@ body {
 
 .rect2 {
     border: 1px solid rgb(255, 255, 255);
-    width: 20%;
-    float: left;
-    margin-right: 20px;
+    width: 400px;
+    /* float: left; */
+    margin-top: 20px;
     border-radius: 5%;
     height: 600px;
     box-shadow: rgb(0 0 0 / 40%) 0 2px 8px;
@@ -34,9 +37,9 @@ body {
 
 .rect3 {
     border: 1px solid rgb(255, 255, 255);
-    width: 20%;
-    float: left;
-    margin-right: 20px;
+    width: 400px;
+    /* float: left; */
+    margin-top: 20px;
     border-radius: 5%;
     height: 600px;
     box-shadow: rgb(0 0 0 / 40%) 0 2px 8px;
@@ -44,8 +47,8 @@ body {
 
 .rect4 {
     border: 1px solid rgb(255, 255, 255);
-    width: 20%;
-    float: left;
+    width: 400px;
+    margin-top: 20px;
     border-radius: 5%;
     height: 600px;
     box-shadow: rgb(0 0 0 / 40%) 0 2px 8px;
@@ -61,6 +64,10 @@ body {
     text-align: center;
     font-size: larger;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: var(--secondary-color);
+}
+.info{
+    color: var(--secondary-color);
 }
 
 .image {
@@ -80,4 +87,27 @@ body {
     margin-left: 60px;
     box-shadow: rgb(0 0 0 / 70%) 0 2px 8px;
     margin-top: 20px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+#darkmode{
+    height: 50px;
+    width: 50px;
+    padding: 20px;
+}
+
+:root{
+    --primary-color:white;
+    --secondary-color:black;
+    --third-color:blue;
+}
+.dark-theme{
+    --primary-color:rgb(24, 23, 23);
+    --secondary-color:white;
+    --third-color:white;
 }
