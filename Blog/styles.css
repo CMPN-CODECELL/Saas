@@ -1,11 +1,13 @@
 .flex-container{
     display: flex;
     flex-direction: row;
-      
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
 }
 
 body{
-     background-color: rgb(241, 236, 229);
+     background-color: var(--primary-color);
 }
 
 .blogpost{
@@ -14,16 +16,13 @@ body{
     border-radius: 10px;
     margin: 20px;
     margin-left: 25px;
-    background-color: white;
+    background-color: var(--secondary-color);
     box-shadow: 10px;
-    
-
-
 }
 
 .blog-img{
     height: 350px;
-    width: 360px;
+    width: 360px;   
     border-top-left-radius: 5px;
     border-top-right-radius: 5px; ;
 }
@@ -34,17 +33,46 @@ body{
 h3{
     margin-left: 10px;
     margin-top: 10px;
-    color: dimgray;
+    color: var(--fourth-color);
 }
 h1{
     margin-left: 10px;
     margin-top: 10px;
-    color: navy;
+    color: var(--fourth-color);
 }
 button{
     margin-left: 10px;
     color:blue;
     border: none;
-    background-color: white;
+    background-color: var(--secondary-color);
     font-size: 15px;
+}
+#darkmode{
+    height: 40px;
+    width: 40px;
+    float: right;
+    padding: 20px;
+    cursor: pointer;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+:root{
+    --primary-color:white;
+    --secondary-color: rgb(227, 210, 210);
+    --third-color: grey;
+    --fourth-color: blue;
+}
+.dark-theme {
+
+    --primary-color: rgb(15, 15, 15);
+    --secondary-color: rgb(34, 32, 32);
+    --third-color:white;
+    --fourth-color: white;
+
+
 }
