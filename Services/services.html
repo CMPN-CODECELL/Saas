@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="services.css">
+    <script src="https://kit.fontawesome.com/43040fb5ec.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="title_bar">
+        <div class="header">Services </div>
+            Lorem adipisicing elit sdoles mollitia sapiente consequatur.
+    </div>
+
+    <div id="service_holder">
+        <div class="service" style ="border-color: blue;">
+            <div class="img_box">
+                <img class="title_img" src="service1.png" alt="not here">
+            </div>
+            <div class ="title_box">
+                Converter
+            </div> 
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores porro veritatis accusamus dolore dolor facilis enim laboriosam? Harum non repellendus sit tenetur deleniti natus?
+            <div class="read_more">
+                <a href="">
+                    Read More <i class="fa-solid fa-arrow-right-long"></i>       
+                </a>     
+            </div>
+        </div>
+        <div class="service" style ="border-color: orange">
+            <div class="img_box">
+                <img class="title_img" src="service2.png" alt="not here">
+            </div>
+            <div class ="title_box">
+                Hosting
+            </div> 
+            Lorem, ipsum dolor . Ab expedita itaque qui, similique repellat, dolores porro veritatis accusamus dolore dolor facilis enim laboriosam? Harum non repellendus sit tenetur deleniti natus?
+            <div class="read_more">
+                <a href="">
+                    Read More <i class="fa-solid fa-arrow-right-long"></i>       
+                </a>     
+            </div>
+        </div>
+        <div class="service" style ="border-color: green;">
+            <div class="img_box">
+                <img class="title_img" src="service3.jpg" alt="not here">
+            </div>
+            <div class ="title_box">
+                Backup
+            </div> 
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. A periam consequatur alias, dolorem reprehenderit quas. Nobis dolor illo asperiores facilis error, numquam porro id harum quia illum.
+            <div class="read_more" >
+                <a href="">
+                    Read more <i class="fa-solid fa-arrow-right-long"></i>       
+                </a>
+            </div>
+        </div>
+            
+    </div>
+
+    <script>
+        
+        let colors = ["blue", "orange", "green"];      
+        let service = document.getElementsByClassName("service");
+        
+        for(let i=0;i<3;i++){
+            let color = colors[i];
+            service[i].getElementsByTagName("a")[0].style.color = color; 
+
+        }
+    </script>
+
+    
+</body>
+</html>
