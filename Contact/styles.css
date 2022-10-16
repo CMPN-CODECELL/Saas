@@ -19,14 +19,18 @@ body {
 
 .div2 {
     width: 500px;
-    height: 400px;
+    height: 390px;
     float: left;
     margin-right: 40px;
     box-shadow: rgb(0 0 0 /60%) 0 2px 8px;
     background-color: #e5e5e5;
-    border: 1px solid black;
+ 
+    transition: background-color 0.5s ease-in-out;
 }
-
+.div2:hover{
+    background-color: rgba(167, 167, 167, 0.767);
+    /* border: 1px solid black; */
+}
 button {
     color: #ffffff;
     background-color: blue;
@@ -45,46 +49,26 @@ textarea {
 }
 
 .rect1 {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 250px;
-    height: 190px;
+    height: 390px;
     float: left;
     margin-left: 40px;
     margin-right: 20px;
     box-shadow: rgb(0 5 0 /60%) 0 2px 8px;
     background-color: #e5e5e5;
+    
 }
 
 .rect2 {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     width: 250px;
-    height: 190px;
+    height: 390px;
     float: left;
     box-shadow: rgb(0 5 0 /60%) 0 2px 8px;
     background-color: #e5e5e5;
 }
 
-.rect3 {
-    border: 1px solid black;
-    width: 250px;
-    height: 190px;
-    float: left;
-    margin-top: 20px;
-    margin-left: 40px;
-    margin-right: 20px;
-    box-shadow: rgb(0 5 0 /60%) 0 2px 8px;
-    background-color: #e5e5e5;
-}
-
-.rect4 {
-    border: 1px solid black;
-    width: 250px;
-    height: 190px;
-    float: left;
-    margin-top: 20px;
-    box-shadow: rgba(0 0 0 /60%) 0 2px 8px;
-    background-color: #e5e5e5;
-}
 
 .image {
     width: 20%;
@@ -101,4 +85,20 @@ textarea {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-left: 20px;
     margin-top: 20px;
+}
+
+.sendBtn:hover {
+    cursor: pointer;
+    background-color: rgb(48, 129, 235);
+}
+
+.inpt {
+    /* border-radius: 5px; */
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.inpt:focus {
+    outline: none;
+    /* Removes the border when the input is clicked */
 }
