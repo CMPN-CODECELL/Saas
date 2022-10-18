@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body {
     background: var(--primary-color)
 }
@@ -21,6 +25,9 @@ body {
     margin-top: -50px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+.nav-item:hover{
+    cursor: pointer;
+}
 
 .nav-btn {
 
@@ -39,6 +46,7 @@ body {
     margin-right: 50px;
 
 }
+.nav-btn:hover{cursor: pointer;}
 
 :root {
     --primary-color: white;
@@ -78,7 +86,7 @@ body {
     flex-direction: row;
     padding-top: 100px;
     padding-left: 50px;
-
+    margin-bottom: 10px;
 
 }
 
@@ -110,4 +118,9 @@ body {
     border-radius: 5px;
     margin-right: 50px;
     box-shadow: 5px;
+}
+.main-btn:hover{cursor: pointer;}
+.container{
+    display: flex;
+    flex-direction: column;
 }

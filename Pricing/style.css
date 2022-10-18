@@ -24,6 +24,18 @@ body {
     height: 600px;
     box-shadow: rgb(0 0 0 / 40%) 0 2px 8px;
 }
+.rect1:hover{
+    border: 1px solid black;
+}
+.rect2:hover{
+    border: 1px solid black;
+}
+.rect3:hover{
+    border: 1px solid black;
+}.rect4:hover{
+    border: 1px solid black;
+}
+
 
 .rect2 {
     border: 1px solid rgb(255, 255, 255);
@@ -87,6 +99,9 @@ body {
     margin-left: 60px;
     box-shadow: rgb(0 0 0 / 70%) 0 2px 8px;
     margin-top: 20px;
+}
+.button1:hover{
+    cursor: pointer;
 }
 
 .container{
