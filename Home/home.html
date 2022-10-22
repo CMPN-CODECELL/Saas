@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+    <div class="w-screen h-[60px] z-10 bg-zinc-200 fixed drop-shadow-lg">
+        <div class="px-2 flex justify-between items-center w-full h-full">
+            <div class="flex items-center">
+                <h1 class="text-3xl font-extrabold mr-4 sm:text-4xl">BRAND.</h1>
+                <ul class="md:flex">
+                    <li>Home</Link></li>
+                    <li>About</Link></li>
+                    <li>Support</Link></li>
+                    <li>Platforms</Link></li>
+                    <li>Pricing</Link></li>
+
+                </ul>
+            </div>
+            <div clasName="hidden md:flex pr-4">
+                <button class="border-none bg-transparent text-black mr-4">Sign In</button>
+                <button class="px-4 py-1 mr-4">Sign Up</button>
+            </div>
+            <div class="md:hidden mr-4">
+                
+            </div>
+        </div>
+       
+    </div>
+    <!-- Navbar -->
+    <!-- Hero -->
+    <div
+      name="home"
+      class="w-full h-screen bg-zinc-200 flex flex-col justify-between p-10"
+    >
+      <div class="grid md:grid-cols-2 max-w-[1240px] m-auto">
+        <div class="flex flex-col justify-center md:items-start w-full px-2 ml-20 py-8">
+          <p class="text-2xl">Unique Sequencing & Production</p>
+          <h1 class="py-3 text-5xl md:text-7xl font-bold">
+            Cloud Management
+          </h1>
+          <p class="text-2xl">This is our Tech brand.</p>
+          <button class="py-3 bg-indigo-600 rounded-md font-medium text-white px-6 sm:w-[60%] my-4 mb-12">
+            Get Started
+          </button>
+        </div>
+        <div>
+          <img class="w-full" src="src/assets/cyber-bg.png" alt="/" />
+        </div>
+        <div
+          class="absolute flex flex-col py-6 md:min-w-[760px] bottom-[5%]
+            mx-1 md:left-1/2 transform md:-translate-x-1/2 bg-zinc-200
+            border border-slate-300 rounded-xl text-center shadow-xl"
+        >
+          <p class="mb-3 mt-0 font-bold text-lg">Data Services</p>
+          <div class="flex justify-between flex-wrap px-4">
+            <p class="flex px-4 py-2 text-slate-500 font-semibold text-lg">
+              <CloudUploadIcon class="h-6 text-indigo-600 mr-3" /> App
+              Security
+            </p>
+            <p class="flex px-4 py-2 text-slate-500 font-semibold text-lg">
+              <DatabaseIcon class="h-6 text-indigo-600 mr-3" /> Dashboard
+              Design
+            </p>
+            <p class="flex px-4 py-2 text-slate-500 font-semibold text-lg">
+              <ServerIcon class="h-6 text-indigo-600 mr-3" /> Cloud Data
+            </p>
+            <p class="flex px-4 py-2 text-slate-500 font-semibold text-lg">
+              <PaperAirplaneIcon class="h-6 text-indigo-600 mr-3" /> API
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Hero -->
+</body>
+</html>
