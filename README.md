@@ -7,7 +7,7 @@ A guide to help you contribute to Hacktoberfest 2022 and to get you started towa
 
 ## How to contribute
 
-Check out our [Contributing Documentation](https://github.com/CMPN-CODECELL/Saas/main/CONTRIBUTING.md) 
+Check out our [Contributing Documentation](https://github.com/CMPN-CODECELL/Saas/blob/main/CONTRIBUTING.md) 
 Every sub repo has its own README.md file which describes the task and you can work on that particular task if you want.
 
 
