@@ -3,12 +3,16 @@
 	<script src="https://kit.fontawesome.com/7ae2efa5af.js" crossorigin="anonymous"></script>
 	
 	<meta charset="UTF-8">
-	<meta name="viewport content="width=device-width,initialscale=1.0">
+	<meta name="viewport content="width="device-width,initialscale=1.0">
        <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <h3 class="heading">FAQ</h3>
-	<h1 class="main-heading">Frequently Asked Questions</h1>
+  <div class="second-heading">
+    <h1 class="main-heading">Frequently Asked Questions</h1>
+    <img id="darkmodeimage" src="images/moon.png" alt="DarkMode">
+  </div>
+	
 	<div class="flex-container">
     <div class="left-container">
       <div class="question">
@@ -71,5 +75,16 @@
       </div>
     </div>
   </div>
+  <script>
+    var darkmode = document.getElementById("darkmodeimage");
+    darkmode.onclick = function () {
+        document.body.classList.toggle("dark-theme");
+        if (document.body.classList.contains("dark-theme")) {
+            darkmode.src = "images/sun.png";
+        } else {
+            darkmode.src = "images/moon.png";
+        }
+    }
+  </script>
 </body>
 </html>

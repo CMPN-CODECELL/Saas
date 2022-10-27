@@ -1,11 +1,15 @@
+body{
+  background-color: var(--third-color);
+}
+
 .heading{
     text-align:center;
     margin-top: 1rem;
-    color:blue;
+    color:var(--primary-color)
 }
 .main-heading{
     text-align:center;
-    color:#1338BE;
+    color:var(--primary-color)
 }
 .flex-container{
     width:80%;
@@ -22,10 +26,13 @@
 .question {
   display: flex;
   justify-content: space-between;
+  color: var(--secondary-color);
+  
 }
 .question-btn {
   background: transparent;
   border-color: transparent;
+  color: var(--secondary-color)
 }
 .lineafter{
   border:0.01rem solid grey;
@@ -33,4 +40,28 @@
 .right-container{
     display:flex;
     flex-direction:column;
+}
+.second-heading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#darkmodeimage{
+  width: 35px;
+  height: 35px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+  
+
+:root{
+  --primary-color:blue;
+  --secondary-color:black;
+  --third-color:white;
+}
+
+.dark-theme{
+  --primary-color:rgb(255, 255, 255);
+  --secondary-color:rgb(248, 234, 234);
+  --third-color:rgb(38, 37, 45);
 }
