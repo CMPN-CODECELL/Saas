@@ -1,6 +1,7 @@
+
 body {
-    margin: 50px;
-    background-color: #8c8c8c;
+    margin: 45px;
+    background-color: #96f0f4;
 }
 
 .header {
@@ -19,7 +20,12 @@ body {
     margin-top: 50px;
     
 }
-
+.rect1:hover{
+    background-color: #7bb2e3;
+}
+.rect2:hover{
+    background-color: #7bb2e3;
+}
 .div2 {
     width: 500px;
     height: 390px;
@@ -28,12 +34,11 @@ body {
     /* margin-right: 40px; */
     box-shadow: rgb(0 0 0 /60%) 0 2px 8px;
     background-color: #e5e5e5;
- 
     transition: background-color 0.5s ease-in-out;
+    border: 2px solid rgba(0, 0, 0, 0.039);
 }
 .div2:hover{
-    background-color: rgba(167, 167, 167, 0.767);
-    /* border: 1px solid black; */
+    background-color: rgba(167, 167, 167, 0.811);
 }
 button {
     color: #ffffff;
@@ -92,7 +97,10 @@ textarea {
     margin-left: 20px;
     margin-top: 20px;
 }
-
+.sendBtn{
+    background-color: rgb(5, 55, 55);
+    border: 1px solid white;
+}
 .sendBtn:hover {
     cursor: pointer;
     background-color: rgb(48, 129, 235);
