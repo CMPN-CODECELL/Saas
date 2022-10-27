@@ -12,10 +12,13 @@ body {
 }
 
 .div1 {
-    width: 600px;
-    height: 400px;
-    float: left;
-    margin-left: 10px;
+    /* width: 600px;
+    height: 400px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+    
 }
 .rect1:hover{
     background-color: #7bb2e3;
@@ -26,8 +29,9 @@ body {
 .div2 {
     width: 500px;
     height: 390px;
-    float: left;
-    margin-right: 40px;
+    margin-top: 20px;
+    /* float: left; */
+    /* margin-right: 40px; */
     box-shadow: rgb(0 0 0 /60%) 0 2px 8px;
     background-color: #e5e5e5;
     transition: background-color 0.5s ease-in-out;
@@ -55,11 +59,12 @@ textarea {
 
 .rect1 {
     /* border: 1px solid black; */
-    width: 250px;
+    width: 300px;
     height: 390px;
-    float: left;
-    margin-left: 40px;
-    margin-right: 20px;
+    /* float: left; */
+    margin-top: 20px;
+    /* margin-left: 40px;
+    margin-right: 20px; */
     box-shadow: rgb(0 5 0 /60%) 0 2px 8px;
     background-color: #e5e5e5;
     
@@ -67,9 +72,10 @@ textarea {
 
 .rect2 {
     /* border: 1px solid black; */
-    width: 250px;
+    width: 300px;    
     height: 390px;
-    float: left;
+    margin-top: 20px;
+    /* float: left; */
     box-shadow: rgb(0 5 0 /60%) 0 2px 8px;
     background-color: #e5e5e5;
 }
@@ -110,3 +116,9 @@ textarea {
     outline: none;
     /* Removes the border when the input is clicked */
 }
+
+@media only screen and (max-width: 600px) {
+    .div2{
+        width: 300px;
+    }
+  }
