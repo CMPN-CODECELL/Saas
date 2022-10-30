@@ -1,12 +1,12 @@
 
 body {
     margin: 45px;
-    background-color: #96f0f4;
+    background-color: var(--third-color);
 }
 
 .header {
     text-align: center;
-    color: rgb(27, 27, 159);
+    color: var(--fourth-color);
     font-size: large;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -21,10 +21,10 @@ body {
     
 }
 .rect1:hover{
-    background-color: #7bb2e3;
+    background-color: #f492e5;
 }
 .rect2:hover{
-    background-color: #7bb2e3;
+    background-color: #f492e5;
 }
 .div2 {
     width: 500px;
@@ -32,19 +32,19 @@ body {
     margin-top: 20px;
     /* float: left; */
     /* margin-right: 40px; */
-    box-shadow: rgb(0 0 0 /60%) 0 2px 8px;
-    background-color: #e5e5e5;
+    box-shadow: var(--secondary-color) 0 2px 8px;
+    background-color: var(--primary-color);
     transition: background-color 0.5s ease-in-out;
-    border: 2px solid rgba(0, 0, 0, 0.039);
+    border: 2px solid var(--secondary-color);
 }
 .div2:hover{
     background-color: rgba(167, 167, 167, 0.811);
 }
 button {
-    color: #ffffff;
+    color: var(--primary-color);
     background-color: blue;
-    border: 1px solid #e5e5e5;
-    box-shadow: rgb(0 5 0 /60%) 0 2px 8px;
+    border: 1px solid var(--primary-color);
+    box-shadow: var(--secondary-color) 0 2px 8px;
     width: 25%;
     height: 30px;
     margin: 5px;
@@ -65,9 +65,9 @@ textarea {
     margin-top: 20px;
     /* margin-left: 40px;
     margin-right: 20px; */
-    box-shadow: rgb(0 5 0 /60%) 0 2px 8px;
-    background-color: #e5e5e5;
-    
+    box-shadow: var(--secondary-color) 0 2px 8px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 .rect2 {
@@ -76,21 +76,22 @@ textarea {
     height: 390px;
     margin-top: 20px;
     /* float: left; */
-    box-shadow: rgb(0 5 0 /60%) 0 2px 8px;
-    background-color: #e5e5e5;
+    box-shadow: var(--secondary-color) 0 2px 8px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 
 .image {
     width: 20%;
     height: 40px;
-    background-color: #e5e5e5;
+    background-color: var(--primary-color);
     margin-top: 20px;
     margin-left: 20px;
 }
 
 .header1 {
-    color: rgb(59, 59, 170);
+    color: var(--fourth-color);
     text-align: left;
     font-size: large;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -99,11 +100,11 @@ textarea {
 }
 .sendBtn{
     background-color: rgb(5, 55, 55);
-    border: 1px solid white;
+    border: 1px solid var(--primary-color);
 }
 .sendBtn:hover {
     cursor: pointer;
-    background-color: rgb(48, 129, 235);
+    background-color: var(--fourth-color);
 }
 
 .inpt {
@@ -112,6 +113,25 @@ textarea {
     border-bottom: 1px solid black;
 }
 
+:root {
+    --primary-color: white;
+    --secondary-color: black;
+    --third-color: #96f0f4;
+    --fourth-color: blue;
+}
+
+.dark-theme {
+    --primary-color: black;
+    --secondary-color: white;
+    --third-color: black;
+    --fourth-color: white;
+}
+
+#icon {
+    width: 50px;
+    cursor: pointer;
+    margin-left: 25px;
+}
 .inpt:focus {
     outline: none;
     /* Removes the border when the input is clicked */
